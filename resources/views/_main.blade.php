@@ -1,7 +1,7 @@
 
 <main>
 
-    <div class="container  padding-100">
+    <div class="container  padding-100 padding-50">
 
         <div class="row justify-content-center">
 
