@@ -1,6 +1,3 @@
-@extends('master')
-
-@section('content')
 
 <main>
 
@@ -66,4 +63,3 @@
 
 </main>
 
-@endsection

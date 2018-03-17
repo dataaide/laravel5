@@ -1,13 +1,13 @@
-@extends('master')
+@extends('default')
 
 @section('content')
 
     <!-- Page principale  Main -->
     <main>
-        <div class="container padding-100 padding-50 justify-content-center  rounded">
+        <div class="container padding-100 padding-50 justify-content-center">
             <h3 class="text-center">FORMULAIRE DE CONTACT</h3>
             <br><br>
-            <div class="row justify-content-center border border-primary ">
+            <div class="row justify-content-center">
                     <div class="col-md-8">
                         <form>
                             <div class="form-row">

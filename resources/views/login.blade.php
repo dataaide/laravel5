@@ -1,10 +1,10 @@
-@extends('master')
+@extends('default')
 
     <!-- Page principale  Main -->
 @section('content')
     
     <main>
-        <div class="container border border-info rounded justify-content-center padding-100 padding-50">
+        <div class="container justify-content-center padding-100 padding-50">
             <h3 class="text-center">FORMULAIRE DE LOGIN</h3>
             <br><br>
                 <div class="row justify-content-center">

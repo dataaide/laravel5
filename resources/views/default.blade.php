@@ -1,4 +1,36 @@
-<!-- barre de navigation -->
+<!doctype html>
+<html lang="fr">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>DataAide</title>
+
+    <style>
+
+
+        body {
+            background-color: #ccccff;
+        }
+        .padding-100 {
+            padding-top: 100px;
+        }
+
+        .padding-50 {
+            padding-bottom: 50px;
+        }
+    </style>    
+
+  </head>
+
+<body>
+
+<!-- HEADER -->
 <header>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -69,3 +101,41 @@
     </div>      
 
 </header>
+ 
+
+<!-- MAIN -->
+@yield('content')
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="container-fluid bg-dark text-white">
+        <div class="row ">
+            <div class="col-md-4">
+                <h3>cadre1</h3>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor.</a></li>
+                    <li><a href="#">Lorem ipsum dolor.</a></li>
+                    <li><a href="#">Lorem ipsum dolor.</a></li>
+                    <li><a href="#">Lorem ipsum dolor.</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h3 class="text-center">cadre2</h3>
+            </div>
+
+            <div class="col-md-4">
+                <h3 class="text-center" >cadre3</h3> 
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
