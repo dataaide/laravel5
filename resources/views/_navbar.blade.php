@@ -1,6 +1,7 @@
 <!-- barre de navigation -->
 <header>
 
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,7 +22,7 @@
         </div>
 </nav>
 
-<!-- Caroussel/Jumbotron -->
+<!-- Jumbotron -->
 
     <div class="container padding-100">
         <div class="row">
