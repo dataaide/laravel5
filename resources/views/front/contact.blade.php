@@ -1,4 +1,4 @@
-@extends('default')
+@extends('front/default', ['title' => 'Contact'])
 
 @section('content')
 

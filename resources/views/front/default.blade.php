@@ -12,20 +12,20 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css" media="all" /> 
 
-    <title>DataAide</title> 
+    <title>DataAide - {{ $title }} </title> 
 
   </head>
 
 <body>
 
 <!-- HEADER -->
-@include('_navbar')
+@include('front/_navbar')
  
 <!-- MAIN -->
 @yield('content')
 
 <!-- FOOTER -->
-@include('_footer')
+@include('front/_footer')
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

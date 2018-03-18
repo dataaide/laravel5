@@ -1,4 +1,4 @@
-@extends('default')
+@extends('front/default', ['title' => 'Login'])
 
     <!-- Page principale  Main -->
 @section('content')
