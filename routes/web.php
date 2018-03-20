@@ -11,14 +11,25 @@
 |
 */
 
+/*--
 Route::get('/', function () {
     return view('front/index');
 });
+*/
 
-Route::get('/contact', function () {
-    return view('front/contact');
-});
+Route::get('/', [
+    'as' => 'root_path', 
+    'uses' => 'HomeController@index'
+]);
 
-Route::get('/login', function () {
-    return view('front/login');
-});
+
+
+Route::get('/contact', [
+    'as' => 'contact_path',
+    'uses' => 'ContactController@contact'
+]);
+
+Route::get('/login', [
+    'as' => 'login_path',
+    'uses' => 'LoginController@login'
+]);
