@@ -22,8 +22,6 @@ Route::get('/', [
     'uses' => 'HomeController@index'
 ]);
 
-
-
 Route::get('/contact', [
     'as' => 'contact_path',
     'uses' => 'ContactController@contact'
@@ -32,4 +30,14 @@ Route::get('/contact', [
 Route::get('/login', [
     'as' => 'login_path',
     'uses' => 'LoginController@login'
+]);
+
+Route::get('/connecter', [
+    'as' => 'connecter_path',
+    'uses' => 'ConnectController@connect'
+]);
+
+Route::get('/enregistrer', [
+    'as' => 'enregistrer_path',
+    'uses' => 'EnregistrerController@enregistrer'
 ]);

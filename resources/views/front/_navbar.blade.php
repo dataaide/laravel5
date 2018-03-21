@@ -14,6 +14,12 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact">Contact</a>
+            </li>     
+            <li class="nav-item">
+                <a class="nav-link" href="enregistrer">S'enregistrer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="connecter">Se connecter</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="login">Login</a>
